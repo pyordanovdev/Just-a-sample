@@ -17,6 +17,7 @@ html{
 }
 header{
     height:100vh;
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.2)),url(pexels-photo-25749.jpg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.2)),url(pexels-photo-25749.jpg);
     background-size:cover;
     background-position:center top;
@@ -91,6 +92,7 @@ h1{
     box-shadow:0 2px 2px #81583e;
     border:1px solid #bb8b49;
     background-color:#bb8b49;
+    -webkit-transition:background-color 100ms border 100ms;
     transition:background-color 100ms border 100ms;
     /*
     background-color:#81583e;*/
